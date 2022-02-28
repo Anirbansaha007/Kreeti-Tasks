@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    margin: 0px 200px;
+}
+
+.box{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.row__1, .row__3{
+    height: 100px;
+}
+
+.row__2{
+    display: flex;
+    height: 600px;
+}
+
+.row__2__col1{
+    width: 80%;
+    display: flex;
+    flex-direction: column;    
+}
+
+.row__2__col2{
+    width: 20%;
+}
+
+.row__2__col1__row1{
+    height: 35%;
+    display: flex;
+}
+
+.row__2__col1__row2{
+    height: 65%;
+}
+
+.row__2__col1__row1__col1, .row__2__col1__row1__col2, .row__2__col1__row1__col3{
+    width: 33.33%;
+}
