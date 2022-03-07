@@ -1,0 +1,60 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 5px;
+}
+div{
+    /* margin: 5px; */
+    padding: 10px;
+    height: 100px;
+    box-sizing: border-box;
+}
+.card1{
+    background: #9fee72;
+}
+.card2{
+    background: #72eeaa;
+}
+.card3{
+    background: #d7ee72;
+}
+.card4{
+    background: #72eee8;
+}
+.card5{
+    background: #ee8b72;
+}
+.card6{
+    background: #ea72ee;
+}
+.card7{
+    background: #727aee;
+}
+.card8{
+    background: #eec372;
+}
+.card9{
+    background: #ad26a7;
+}
+.card10{
+    background: #0f4226;
+}
+.card11{
+    background: #1a5a51;
+}
+.card12{
+    background: #147714;
+}
+.card13{
+    background: #3b5f3e;
+}
+.card14{
+    background: #353030;
+}
+.card15{
+    background: #204647;
+}
+.card16{
+    background: #d5d827;
+}
