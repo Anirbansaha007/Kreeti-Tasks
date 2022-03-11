@@ -1,0 +1,25 @@
+main{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: [header-start]100px[header-end box-start] 200px [box-end main-start] 300px [main-end footer-start] 100px[footer-end];
+    max-width: 1200px;
+    margin: auto;
+}
+.card{
+    background: red;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+header, footer{
+    grid-column: 1/5;
+}
+.main_content{
+    grid-column: 1/4;
+}
+.sidebar{
+    grid-column: 4/5;
+    grid-row: box-start/main-end;
+}
